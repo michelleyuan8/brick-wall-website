@@ -1,0 +1,14 @@
+body{
+    background-image: url(brick-wall.jpg);
+    background-repeat: no-repeat;
+}
+
+div.window{
+    border: 2px solid yellow;
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
