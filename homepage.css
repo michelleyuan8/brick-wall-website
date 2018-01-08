@@ -1,14 +1,47 @@
 body{
     background-image: url(brick-wall.jpg);
     background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
 div.window{
-    border: 2px solid yellow;
-    width: 600px;
-    height: 500px;
+    /border: 2px solid yellow;
+    width: 650px;
+    height: 550px;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+div.outer-wrap{
+    border: 2px solid white;
+    width: 820px;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+div.wrap{
+    border: 2px solid blue;
+    width: 750px;
+    height: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+div.icon{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    z-index: 999;
+    position: relative;
 }
