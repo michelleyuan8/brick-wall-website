@@ -7,7 +7,6 @@ body{
 }
 
 div.window{
-    /border: 2px solid yellow;
     width: 650px;
     height: 550px;
     position: absolute;
@@ -17,8 +16,7 @@ div.window{
 }
 
 div.outer-wrap{
-    border: 2px solid white;
-    width: 820px;
+    width: 1400px;
     height: 100%;
     position: absolute;
     top: 50%;
@@ -28,7 +26,6 @@ div.outer-wrap{
 }
 
 div.wrap{
-    border: 2px solid blue;
     width: 750px;
     height: 650px;
     position: absolute;
